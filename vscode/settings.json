@@ -72,5 +72,6 @@
   "vscord.status.details.idle.enabled": false,
   "vscord.status.idle.timeout": 600,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "window.menuBarVisibility": "toggle"
 }
