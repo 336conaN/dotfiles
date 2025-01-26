@@ -1,77 +1,146 @@
 {
+  /////////////////////////////////////////////////////////////////////////////////////////////  
+  //                                                                                         //  
+  //  keybinds https://github.com/336conaN/dotfiles/blob/main/vscode/keybindings.json        //  
+  //  config https://github.com/336conaN/dotfiles/blob/main/vscode/settings.json             //  
+  //                                                                                         //  
+  /////////////////////////////////////////////////////////////////////////////////////////////  
+
+  /////////////////////////////////////////////////////////////////////////////////////////////  
+  //                                                                                         //  
+  //  Catppuccin Theme                                                                       //  
+  //  https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc          //  
+  //                                                                                         //  
+  //  Material Icons                                                                         //  
+  //  https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme          //  
+  //                                                                                         //  
+  //  Vim Emulation                                                                          //  
+  //  https://marketplace.visualstudio.com/items?itemName=vscodevim.vim                      //  
+  //                                                                                         //  
+  //  Pull Requests inside VSCode                                                            //  
+  //  https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github  //  
+  //                                                                                         //  
+  //  Discord Rich Presence                                                                  //  
+  //  https://marketplace.visualstudio.com/items?itemName=LeonardSSH.vscord                  //  
+  //                                                                                         //  
+  //  Live Server with Auto Reload                                                           //  
+  //  https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer              //  
+  //                                                                                         //  
+  //  Code Formatter                                                                         //  
+  //  https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode             //  
+  //                                                                                         //  
+  //  Inline Error                                                                           //  
+  //  https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens               //  
+  //                                                                                         //  
+  /////////////////////////////////////////////////////////////////////////////////////////////  
+
+  // Updates
   "extensions.autoUpdate": false,
   "extensions.autoCheckUpdates": false,
   "update.mode": "manual",
   "update.enableWindowsBackgroundUpdates": false,
+
+  // Online Services
   "workbench.cloudChanges.continueOn": "off",
   "workbench.cloudChanges.autoResume": "off",
   "telemetry.telemetryLevel": "off",
   "workbench.settings.enableNaturalLanguageSearch": false,
+
+  // Annoyances
   "extensions.ignoreRecommendations": true,
   "git.openRepositoryInParentFolders": "always",
   "security.workspace.trust.enabled": false,
   "security.workspace.trust.startupPrompt": "never",
-  "workbench.startupEditor": "none",
-  "workbench.tips.enabled": false,
+
+  // Startup
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.startupEditor": "newUntitledFile",
   "window.restoreWindows": "none",
   "files.hotExit": "off",
+
+  // Font
   "editor.fontFamily": "\"JetBrainsMono Nerd Font\"",
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.fontWeight": "600",
   "editor.fontLigatures": true,
+
+  // Animations
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "workbench.list.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
-  "workbench.panel.defaultLocation": "bottom",
-  "terminal.integrated.defaultProfile.osx": "pwsh",
+
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+
+  // UI
+  "workbench.panel.defaultLocation": "right",
+  "workbench.sideBar.location": "left",
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.overviewRulerBorder": false,
   "workbench.activityBar.location": "hidden",
-  "workbench.sideBar.location": "right",
-  "breadcrumbs.enabled": false,
-  "workbench.editor.empty.hint": "hidden",
+  "window.menuBarVisibility": "toggle",
+  "workbench.editor.showTabs": "single",
+  "window.density.editorTabHeight": "compact",
   "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "window.commandCenter": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "window.titleBarStyle": "native",
   "editor.scrollbar.horizontalScrollbarSize": 0,
   "editor.scrollbar.verticalScrollbarSize": 0,
-  "chat.commandCenter.enabled": false,
-  "workbench.editor.tabActionCloseVisibility": false,
-  "workbench.editor.showTabs": "none",
-  "workbench.editor.editorActionsLocation": "hidden",
-  "window.commandCenter": false,
-  "window.titleBarStyle": "native",
-  "workbench.tree.renderIndentGuides": "none",
+
+  // Editor
   "editor.hover.enabled": false,
   "editor.dragAndDrop": false,
   "editor.renderLineHighlight": "none",
   "editor.cursorBlinking": "solid",
   "editor.selectionHighlight": false,
   "editor.occurrencesHighlight": "off",
+  "editor.renderWhitespace": "boundary",
+  "editor.guides.indentation": true,
   "editor.lightbulb.enabled": "off",
   "editor.stickyScroll.enabled": false,
-  "editor.guides.indentation": false,
-  "editor.renderWhitespace": "boundary",
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
+
+  // Explorer
   "explorer.compactFolders": false,
-  "explorer.confirmDelete": false,
+  "workbench.tree.renderIndentGuides": "none",
+
+  // Catppuccin
   "workbench.colorTheme": "Catppuccin Mocha",
+  "catppuccin.accentColor": "blue",
+
+  // Material Icons
   "workbench.iconTheme": "material-icon-theme",
-  "prettier.endOfLine": "crlf",
+  "material-icon-theme.hidesExplorerArrows": true,
+
+  // Vim
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
   "vim.useSystemClipboard": true,
   "vim.highlightedyank.enable": true,
   "vim.showcmd": false,
   "vim.showmodename": false,
+
+  // Discord
   "vscord.app.privacyMode.enable": true,
-  "vscord.status.details.enabled": false,
-  "vscord.status.details.idle.enabled": false,
   "vscord.status.idle.timeout": 600,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vscord.app.name": "Visual Studio Code",
+  "vscord.behaviour.statusBarAlignment": "Right",
+
+  // Prettier
+  "prettier.endOfLine": "auto",
   "editor.formatOnSave": true,
-  "window.menuBarVisibility": "toggle"
+
+  // Error Lens
+  "errorLens.gutterIconSet": "emoji",
+  "errorLens.fontStyleItalic": true,
 }
