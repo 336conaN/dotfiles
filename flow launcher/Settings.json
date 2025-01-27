@@ -1,0 +1,185 @@
+{
+  "Hotkey": "Ctrl \u002B Space",
+  "OpenResultModifiers": "Ctrl",
+  "ColorScheme": "System",
+  "ShowOpenResultHotkey": false,
+  "WindowSize": 750,
+  "PreviewHotkey": "F1",
+  "AutoCompleteHotkey": "Ctrl \u002B Tab",
+  "AutoCompleteHotkey2": "",
+  "SelectNextItemHotkey": "Tab",
+  "SelectNextItemHotkey2": "",
+  "SelectPrevItemHotkey": "Shift \u002B Tab",
+  "SelectPrevItemHotkey2": "",
+  "SelectNextPageHotkey": "Alt \u002B L",
+  "SelectPrevPageHotkey": "Alt \u002B H",
+  "OpenContextMenuHotkey": "Ctrl\u002BO",
+  "SettingWindowHotkey": "Ctrl\u002BI",
+  "CycleHistoryUpHotkey": "Alt \u002B K",
+  "CycleHistoryDownHotkey": "Alt \u002B J",
+  "Language": "en",
+  "Theme": "conaN",
+  "UseDropShadowEffect": true,
+  "WindowHeightSize": 44,
+  "ItemHeightSize": 44,
+  "QueryBoxFontSize": 22,
+  "ResultItemFontSize": 14,
+  "ResultSubItemFontSize": 12,
+  "QueryBoxFont": "Inter",
+  "QueryBoxFontStyle": "Normal",
+  "QueryBoxFontWeight": "SemiBold",
+  "QueryBoxFontStretch": "Normal",
+  "ResultFont": "Inter",
+  "ResultFontStyle": null,
+  "ResultFontWeight": null,
+  "ResultFontStretch": null,
+  "ResultSubFont": "Inter",
+  "ResultSubFontStyle": null,
+  "ResultSubFontWeight": null,
+  "ResultSubFontStretch": null,
+  "UseGlyphIcons": true,
+  "UseAnimation": true,
+  "UseSound": false,
+  "SoundVolume": 50,
+  "UseClock": false,
+  "UseDate": false,
+  "TimeFormat": "hh:mm tt",
+  "DateFormat": "MM\u0027/\u0027dd ddd",
+  "FirstLaunch": false,
+  "SettingWindowWidth": 1000,
+  "SettingWindowHeight": 700,
+  "SettingWindowTop": 199,
+  "SettingWindowLeft": 442,
+  "SettingWindowState": 0,
+  "CustomExplorerIndex": 0,
+  "CustomBrowserIndex": 0,
+  "ShouldUsePinyin": false,
+  "AlwaysPreview": false,
+  "AlwaysStartEn": false,
+  "QuerySearchPrecision": "Regular",
+  "AutoUpdates": false,
+  "WindowLeft": 960,
+  "WindowTop": 247,
+  "CustomWindowLeft": 0,
+  "CustomWindowTop": 0,
+  "KeepMaxResults": true,
+  "MaxResultsToShow": 6,
+  "ActivateTimes": 25,
+  "CustomPluginHotkeys": [],
+  "CustomShortcuts": [],
+  "DontPromptUpdateMsg": false,
+  "EnableUpdateLog": false,
+  "StartFlowLauncherOnSystemStartup": true,
+  "HideOnStartup": true,
+  "HideNotifyIcon": false,
+  "LeaveCmdOpen": false,
+  "HideWhenDeactivated": true,
+  "SearchWindowScreen": "Cursor",
+  "SearchWindowAlign": "Center",
+  "CustomScreenNumber": 1,
+  "IgnoreHotkeysOnFullscreen": false,
+  "Proxy": {
+    "Enabled": false,
+    "Server": null,
+    "Port": 0,
+    "UserName": null,
+    "Password": null
+  },
+  "LastQueryMode": "Empty",
+  "AnimationSpeed": "Fast",
+  "CustomAnimationLength": 360,
+  "PluginSettings": {
+    "PythonExecutablePath": "",
+    "NodeExecutablePath": "",
+    "Plugins": {
+      "CEA0FDFC6D3B4085823D60DC76F28855": {
+        "ID": "CEA0FDFC6D3B4085823D60DC76F28855",
+        "Name": "Calculator",
+        "Version": "3.1.5",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+      "572be03c74c642baae319fc283e561a8": {
+        "ID": "572be03c74c642baae319fc283e561a8",
+        "Name": "Explorer",
+        "Version": "3.2.4",
+        "ActionKeywords": [
+          "*",
+          "*",
+          "*",
+          "*"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+      "6A122269676E40EB86EB543B945932B9": {
+        "ID": "6A122269676E40EB86EB543B945932B9",
+        "Name": "Plugin Indicator",
+        "Version": "3.0.7",
+        "ActionKeywords": [
+          "?"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+      "9f8f9b14-2518-4907-b211-35ab6290dee7": {
+        "ID": "9f8f9b14-2518-4907-b211-35ab6290dee7",
+        "Name": "Plugins Manager",
+        "Version": "3.2.4",
+        "ActionKeywords": [
+          "pm"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+      "791FC278BA414111B8D1886DFE447410": {
+        "ID": "791FC278BA414111B8D1886DFE447410",
+        "Name": "Program",
+        "Version": "3.3.4",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+      "D409510CD0D2481F853690A07E6DC426": {
+        "ID": "D409510CD0D2481F853690A07E6DC426",
+        "Name": "Shell",
+        "Version": "3.2.5",
+        "ActionKeywords": [
+          "r"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+      "0308FD86DE0A4DEE8D62B9B535370992": {
+        "ID": "0308FD86DE0A4DEE8D62B9B535370992",
+        "Name": "URL",
+        "Version": "3.0.8",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+      "565B73353DBF4806919830B9202EE3BF": {
+        "ID": "565B73353DBF4806919830B9202EE3BF",
+        "Name": "Web Searches",
+        "Version": "3.1.4",
+        "ActionKeywords": [
+          "*",
+          "gm",
+          "gt",
+          "gh",
+          "gi",
+          "yt"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      }
+    }
+  }
+}
