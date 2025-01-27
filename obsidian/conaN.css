@@ -1,0 +1,24 @@
+.status-bar {
+  display:none !important;
+}
+
+::-webkit-scrollbar {
+  display:none !important;
+}
+
+.tooltip {
+  display:none !important;
+}
+
+.sidebar-toggle-button.mod-right,
+.sidebar-toggle-button.mod-left {
+  display: none !important;
+}
+
+.workspace-leaf-content[data-type=file-explorer] .nav-header {
+  display: none !important;
+}
+
+.workspace-tab-header-tab-list {
+  display: none !important;
+}
