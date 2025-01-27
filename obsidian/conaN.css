@@ -1,24 +1,31 @@
-.status-bar {
+  /*////////////////////////////////////////////////////////////////*/  
+  /*                                                                */  
+  /*  config by https://github.com/336conaN                         */  
+  /*  repo https://github.com/336conaN/dotfiles/tree/main/obsidian  */  
+  /*                                                                */  
+  /*////////////////////////////////////////////////////////////////*/  
+
+.status-bar { /*hide status bar*/
   display:none !important;
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar { /*hide scrollbars*/
   display:none !important;
 }
 
-.tooltip {
+.tooltip { /*hide tooltips*/
   display:none !important;
 }
 
 .sidebar-toggle-button.mod-right,
-.sidebar-toggle-button.mod-left {
+.sidebar-toggle-button.mod-left { /*hide expand/collapse sidebar buttons*/
   display: none !important;
 }
 
-.workspace-leaf-content[data-type=file-explorer] .nav-header {
+.workspace-leaf-content[data-type=file-explorer] .nav-header { /*hide file explorer buttons*/
   display: none !important;
 }
 
-.workspace-tab-header-tab-list {
+.workspace-tab-header-tab-list { /*hide tab actions button*/
   display: none !important;
 }

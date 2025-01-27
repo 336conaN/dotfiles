@@ -1,4 +1,6 @@
 {
   "showInlineTitle": false,
-  "showRibbon": false
+  "showRibbon": false,
+  "tabSize": 2,
+  "vimMode": true
 }

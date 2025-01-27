@@ -1,10 +1,10 @@
 {
   "nativeMenus": true,
   "cssTheme": "Catppuccin",
-  "theme": "system",
   "interfaceFontFamily": "Inter",
   "textFontFamily": "Inter",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "baseFontSize": 18,
-  "showViewHeader": false
+  "showViewHeader": false,
+  "enabledCssSnippets": ["conaN"]
 }
